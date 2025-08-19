@@ -1,5 +1,5 @@
-import React from 'react';
-import { Home, MapPin } from 'lucide-react';
+import React from "react";
+import { Home, MapPin } from "lucide-react";
 
 export const Header: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
               <Home className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">ParisHome</h1>
+              <h1 className="text-xl font-bold text-gray-900">ParisBnB</h1>
               <p className="text-xs text-gray-500 flex items-center">
                 <MapPin className="h-3 w-3 mr-1" />
                 Logements Île-de-France
